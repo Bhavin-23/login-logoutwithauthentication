@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f7f4f6, #f0f0ea);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: rgba(246, 244, 241, 0.15);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: #322f2f;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container input, .form-container select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #5563DE;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #3946c1;
+}
+
+.link {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #212020;
+  text-decoration: underline;
+}
+
+.msg {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
