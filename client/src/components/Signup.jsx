@@ -15,7 +15,7 @@ export default function Signup() {
     Object.keys(form).forEach(key => formData.append(key, form[key]));
     if (profile) formData.append("profile", profile);
 
-    const res = await fetch("http://localhost:4000/api/user/signup", { method: "POST", body: formData });
+    const res = await fetch("https://login-logoutwithauthentication.onrender.com/api/user/signup", { method: "POST", body: formData });
     const data = await res.json();
     if (res.ok) {
       setMsg("Signup successful!");
