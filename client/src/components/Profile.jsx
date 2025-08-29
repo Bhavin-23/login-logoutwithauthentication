@@ -14,7 +14,7 @@ export default function Profile() {
       return;
     }
 
-    fetch("http://localhost:4000/api/user/me", { headers: { Authorization: `Bearer ${token}` } })
+    fetch("https://login-logoutwithauthentication.onrender.com/api/user/me", { headers: { Authorization: `Bearer ${token}` } })
       .then(res => res.json())
       .then(data => {
         if (data.user) setUser(data.user);
@@ -35,7 +35,7 @@ export default function Profile() {
       <h2>My Profile</h2>
       {user && (
         <div>
-          {user.profile && <img src={`http://localhost:4000/uploads/${user.profile}`} alt="Profile" className="profile-pic" />}
+          {user.profile && <img src={`https://login-logoutwithauthentication.onrender.com/uploads/${user.profile}`} alt="Profile" className="profile-pic" />}
           <p><strong>Username:</strong> {user.username}</p>
           <p><strong>Email:</strong> {user.email}</p>
           <p><strong>Role:</strong> {user.role}</p>
