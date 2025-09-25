@@ -22,7 +22,7 @@ A production-ready MERN stack auth app with **JWT authentication**, **password h
 - **bcrypt** (password hashing)
 - **jsonwebtoken** (JWT auth)
 - **multer** (file upload)
-- **cors**, **dotenv**
+- **cors** & **dotenv**
 
 ### Frontend
 - **React (19)**, **React DOM (19)**
