@@ -29,6 +29,8 @@ A production-ready MERN stack auth app with **JWT authentication**, **password h
 - **React Router DOM (7.7)**
 
 ---
+## 🌐 Live Demo & Repository
 
+- 🔗 **Live Demo:** [Click here to view](https://login-logoutwithauthentication.vercel.app/signup)  
  
 
