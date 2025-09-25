@@ -31,6 +31,6 @@ A production-ready MERN stack auth app with **JWT authentication**, **password h
 ---
 ## 🌐 Live Demo & Repository
 
-- 🔗 **Live Demo:** [Click here to view](https://login-logoutwithauthentication.vercel.app/login)  
+- 🔗 **Live Demo:** [Click here to view](https://login-logoutwithauthentication.vercel.app/)  
  
 
